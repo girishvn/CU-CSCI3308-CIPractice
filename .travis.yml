@@ -4,3 +4,4 @@ install: make dep
 language: c
 compiler: gcc
 script: make && make test
+sudo: required
